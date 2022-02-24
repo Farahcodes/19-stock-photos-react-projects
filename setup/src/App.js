@@ -46,7 +46,7 @@ function App() {
         <div className="photos-center">
           {photos.map((image,index)=>{
             return(
-              <Photo key={index} {...image}/>
+              <Photo key={image.id} {...image}/>
             )
           })}
         </div>
